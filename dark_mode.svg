@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1019px" height="450px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.cc {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1019px" height="450px" fill="#161b22" rx="15"/>
+<text fill="#c9d1d9">
+<tspan x="15" y="30"></tspan>
+<tspan x="15" y="50">        ________________________</tspan>
+<tspan x="15" y="70">       /                        \</tspan>
+<tspan x="15" y="90">      /__________________________\</tspan>
+<tspan x="15" y="110">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="130">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="150">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="170">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="190">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="210">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="230">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="250">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="270">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="290">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="310">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="330">      |  []  []    []    []  []  |</tspan>
+<tspan x="15" y="350">      |  []  []   ____   []  []  |</tspan>
+<tspan x="15" y="370">      |  []  []  | .. |  []  []  |</tspan>
+<tspan x="15" y="390">      |          | .. |          |</tspan>
+<tspan x="15" y="410">  ,,,,|__________|____|__________|,,,,</tspan>
+<tspan x="15" y="430">    ..................................</tspan>
+</text>
+<text fill="#c9d1d9">
+<tspan x="409" y="30">christian@olsen <tspan class="cc">----------------------------------------------</tspan></tspan>
+<tspan x="409" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
+<tspan x="409" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">TODO: set UPTIME_SINCE</tspan></tspan>
+<tspan x="409" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................. </tspan><tspan class="value">OBOS</tspan></tspan>
+<tspan x="409" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">TODO: your role</tspan></tspan>
+<tspan x="409" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VS Code, Rider, DataGrip</tspan></tspan>
+<tspan x="409" y="150"><tspan class="cc">. </tspan></tspan>
+<tspan x="409" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">C#, TypeScript, Python</tspan></tspan>
+<tspan x="409" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Terraform, Bicep, YAML</tspan></tspan>
+<tspan x="409" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Norwegian, English</tspan></tspan>
+<tspan x="409" y="230"><tspan class="cc">. </tspan></tspan>
+<tspan x="409" y="250"><tspan class="cc">. </tspan><tspan class="key">Cloud</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">Azure</tspan></tspan>
+<tspan x="409" y="270"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">TODO: your hobbies</tspan></tspan>
+<tspan x="409" y="290">- Contact <tspan class="cc">----------------------------------------------------</tspan></tspan>
+<tspan x="409" y="310"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">ChristianOlsen</tspan></tspan>
+<tspan x="409" y="330"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">TODO</tspan></tspan>
+<tspan x="409" y="350">- GitHub Stats <tspan class="cc">-----------------------------------------------</tspan></tspan>
+<tspan x="409" y="370"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">14 {Contributed: 19}</tspan> | <tspan class="key">Stars</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="409" y="390"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">40</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">0</tspan></tspan>
+</text>
+</svg>
