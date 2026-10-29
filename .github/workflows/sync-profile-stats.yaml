@@ -1,4 +1,4 @@
-name: README build
+name: sync-profile-stats
 on:
   push:
     branches:
