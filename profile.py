@@ -19,8 +19,7 @@ ROOT = Path(__file__).parent
 LOGIN = "ChristianOlsen"
 HEADER = "christian@olsen"
 
-# TODO: set to the date you want "Uptime" counted from (birthday, first day as a dev, ...)
-UPTIME_SINCE = None  # e.g. date(1995, 1, 1)
+UPTIME_SINCE = date(1998, 9, 7)
 
 # Each entry: (key, value) | None for a blank line | ("-", section title)
 # Keys with dots ("Languages.Real") are coloured per segment, like neofetch.
@@ -28,18 +27,20 @@ INFO = [
     ("OS", "macOS, Linux"),
     ("Uptime", "{uptime}"),
     ("Host", "OBOS"),
-    ("Kernel", "TODO: your role"),
-    ("IDE", "VS Code, Rider, DataGrip"),
-    None,
-    ("Languages.Programming", "C#, TypeScript, Python"),
-    ("Languages.Infra", "Terraform, Bicep, YAML"),
-    ("Languages.Real", "Norwegian, English"),
-    None,
+    ("Kernel", "Fullstack Developer"),
+    ("IDE", "JetBrains"),
     ("Cloud", "Azure"),
-    ("Hobbies", "TODO: your hobbies"),
+    ("Region", "EU North, Oslo"),
+    None,
+    ("Languages.Programming.Backend", "C#, Python, Kotlin"),
+    ("Languages.Programming.Frontend", "TypeScript"),
+    ("Languages.Programming.Infrastructure", "Terraform, Bicep"),
+    ("Languages.Natural", "Norwegian, English"),
     ("-", "Contact"),
     ("GitHub", LOGIN),
-    ("LinkedIn", "TODO"),
+    ("LinkedIn", "chrolsn"),
+    ("Email.Personal", "christian.olsen.dev@gmail.com"),
+    ("Email.Work", "christian.olsen@obos.no"),
     ("-", "GitHub Stats"),
     (("Repos", "{repos} {{Contributed: {contributed}}}"), ("Stars", "{stars}")),
     (("Commits", "{commits}"), ("Followers", "{followers}")),
@@ -171,6 +172,7 @@ def render(theme, ascii_lines, values):
         if entry is None:
             info_rows.append('<tspan class="cc">. </tspan>')
         elif entry[0] == "-":
+            info_rows.append("")  # empty line above each section, like neofetch
             title = f"- {entry[1]} "
             info_rows.append(f'{escape(title)}<tspan class="cc">{"-" * (WIDTH + 2 - len(title))}</tspan>')
         elif isinstance(entry[0], tuple):
@@ -193,7 +195,8 @@ def render(theme, ascii_lines, values):
     def y(i):
         return 30 + i * LINE_H
 
-    ascii_svg = "\n".join(f'<tspan x="15" y="{y(i)}">{escape(l)}</tspan>' for i, l in enumerate(ascii_lines))
+    top = (rows - len(ascii_lines)) // 2  # centre the portrait vertically
+    ascii_svg = "\n".join(f'<tspan x="15" y="{y(top + i)}">{escape(l)}</tspan>' for i, l in enumerate(ascii_lines))
     info_svg = "\n".join(f'<tspan x="{x_info}" y="{y(i)}">{r}</tspan>' for i, r in enumerate(info_rows))
 
     return f"""<?xml version='1.0' encoding='UTF-8'?>
