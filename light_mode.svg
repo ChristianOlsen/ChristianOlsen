@@ -40,7 +40,7 @@ text, tspan {white-space: pre;}
 <text fill="#24292f">
 <tspan x="428" y="30">christian@olsen <tspan class="cc">----------------------------------------------</tspan></tspan>
 <tspan x="428" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">macOS, Linux</tspan></tspan>
-<tspan x="428" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">28 years, 1 month, 23 days</tspan></tspan>
+<tspan x="428" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">28 years, 1 month, 24 days</tspan></tspan>
 <tspan x="428" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................. </tspan><tspan class="value">OBOS</tspan></tspan>
 <tspan x="428" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Fullstack Developer</tspan></tspan>
 <tspan x="428" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">JetBrains</tspan></tspan>
@@ -60,6 +60,6 @@ text, tspan {white-space: pre;}
 <tspan x="428" y="410"></tspan>
 <tspan x="428" y="430">- GitHub Stats <tspan class="cc">-----------------------------------------------</tspan></tspan>
 <tspan x="428" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">8 {Contributed: 0}</tspan> | <tspan class="key">Stars</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">0</tspan></tspan>
-<tspan x="428" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">483</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="428" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">486</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">0</tspan></tspan>
 </text>
 </svg>
